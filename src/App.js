@@ -7,8 +7,8 @@ const App = () => {
   return (
     <div>
       <div>{counter}</div>
-      <button onClick={increaseByOne}> plus</button>
-      <button onClick={setToZero}> zero</button>
+      <button onClick={increaseByOne}> increment</button>
+      <button onClick={setToZero}> reset</button>
     </div>
   );
 };
